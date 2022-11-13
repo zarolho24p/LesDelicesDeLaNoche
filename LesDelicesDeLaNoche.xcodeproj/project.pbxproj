@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D81E5C3A2921B84C007FCF20 /* LesDelicesDeLaNocheApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81E5C392921B84C007FCF20 /* LesDelicesDeLaNocheApp.swift */; };
+		D81E5C3C2921B84C007FCF20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81E5C3B2921B84C007FCF20 /* ContentView.swift */; };
+		D81E5C3E2921B84F007FCF20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D81E5C3D2921B84F007FCF20 /* Assets.xcassets */; };
+		D81E5C412921B84F007FCF20 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D81E5C402921B84F007FCF20 /* Preview Assets.xcassets */; };
+		D81E5C4B2921B850007FCF20 /* LesDelicesDeLaNocheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81E5C4A2921B850007FCF20 /* LesDelicesDeLaNocheTests.swift */; };
+		D81E5C552921B850007FCF20 /* LesDelicesDeLaNocheUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81E5C542921B850007FCF20 /* LesDelicesDeLaNocheUITests.swift */; };
+		D81E5C572921B850007FCF20 /* LesDelicesDeLaNocheUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81E5C562921B850007FCF20 /* LesDelicesDeLaNocheUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D81E5C472921B850007FCF20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D81E5C2E2921B84C007FCF20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D81E5C352921B84C007FCF20;
+			remoteInfo = LesDelicesDeLaNoche;
+		};
+		D81E5C512921B850007FCF20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D81E5C2E2921B84C007FCF20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D81E5C352921B84C007FCF20;
+			remoteInfo = LesDelicesDeLaNoche;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D81E5C362921B84C007FCF20 /* LesDelicesDeLaNoche.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LesDelicesDeLaNoche.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D81E5C392921B84C007FCF20 /* LesDelicesDeLaNocheApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LesDelicesDeLaNocheApp.swift; sourceTree = "<group>"; };
+		D81E5C3B2921B84C007FCF20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D81E5C3D2921B84F007FCF20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D81E5C402921B84F007FCF20 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D81E5C462921B850007FCF20 /* LesDelicesDeLaNocheTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LesDelicesDeLaNocheTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D81E5C4A2921B850007FCF20 /* LesDelicesDeLaNocheTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LesDelicesDeLaNocheTests.swift; sourceTree = "<group>"; };
+		D81E5C502921B850007FCF20 /* LesDelicesDeLaNocheUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LesDelicesDeLaNocheUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D81E5C542921B850007FCF20 /* LesDelicesDeLaNocheUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LesDelicesDeLaNocheUITests.swift; sourceTree = "<group>"; };
+		D81E5C562921B850007FCF20 /* LesDelicesDeLaNocheUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LesDelicesDeLaNocheUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D81E5C332921B84C007FCF20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D81E5C432921B850007FCF20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D81E5C4D2921B850007FCF20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D81E5C2D2921B84C007FCF20 = {
+			isa = PBXGroup;
+			children = (
+				D81E5C382921B84C007FCF20 /* LesDelicesDeLaNoche */,
+				D81E5C492921B850007FCF20 /* LesDelicesDeLaNocheTests */,
+				D81E5C532921B850007FCF20 /* LesDelicesDeLaNocheUITests */,
+				D81E5C372921B84C007FCF20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D81E5C372921B84C007FCF20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D81E5C362921B84C007FCF20 /* LesDelicesDeLaNoche.app */,
+				D81E5C462921B850007FCF20 /* LesDelicesDeLaNocheTests.xctest */,
+				D81E5C502921B850007FCF20 /* LesDelicesDeLaNocheUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D81E5C382921B84C007FCF20 /* LesDelicesDeLaNoche */ = {
+			isa = PBXGroup;
+			children = (
+				D81E5C392921B84C007FCF20 /* LesDelicesDeLaNocheApp.swift */,
+				D81E5C3B2921B84C007FCF20 /* ContentView.swift */,
+				D81E5C3D2921B84F007FCF20 /* Assets.xcassets */,
+				D81E5C3F2921B84F007FCF20 /* Preview Content */,
+			);
+			path = LesDelicesDeLaNoche;
+			sourceTree = "<group>";
+		};
+		D81E5C3F2921B84F007FCF20 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D81E5C402921B84F007FCF20 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D81E5C492921B850007FCF20 /* LesDelicesDeLaNocheTests */ = {
+			isa = PBXGroup;
+			children = (
+				D81E5C4A2921B850007FCF20 /* LesDelicesDeLaNocheTests.swift */,
+			);
+			path = LesDelicesDeLaNocheTests;
+			sourceTree = "<group>";
+		};
+		D81E5C532921B850007FCF20 /* LesDelicesDeLaNocheUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D81E5C542921B850007FCF20 /* LesDelicesDeLaNocheUITests.swift */,
+				D81E5C562921B850007FCF20 /* LesDelicesDeLaNocheUITestsLaunchTests.swift */,
+			);
+			path = LesDelicesDeLaNocheUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D81E5C352921B84C007FCF20 /* LesDelicesDeLaNoche */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D81E5C5A2921B850007FCF20 /* Build configuration list for PBXNativeTarget "LesDelicesDeLaNoche" */;
+			buildPhases = (
+				D81E5C322921B84C007FCF20 /* Sources */,
+				D81E5C332921B84C007FCF20 /* Frameworks */,
+				D81E5C342921B84C007FCF20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LesDelicesDeLaNoche;
+			productName = LesDelicesDeLaNoche;
+			productReference = D81E5C362921B84C007FCF20 /* LesDelicesDeLaNoche.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D81E5C452921B850007FCF20 /* LesDelicesDeLaNocheTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D81E5C5D2921B850007FCF20 /* Build configuration list for PBXNativeTarget "LesDelicesDeLaNocheTests" */;
+			buildPhases = (
+				D81E5C422921B850007FCF20 /* Sources */,
+				D81E5C432921B850007FCF20 /* Frameworks */,
+				D81E5C442921B850007FCF20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D81E5C482921B850007FCF20 /* PBXTargetDependency */,
+			);
+			name = LesDelicesDeLaNocheTests;
+			productName = LesDelicesDeLaNocheTests;
+			productReference = D81E5C462921B850007FCF20 /* LesDelicesDeLaNocheTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D81E5C4F2921B850007FCF20 /* LesDelicesDeLaNocheUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D81E5C602921B850007FCF20 /* Build configuration list for PBXNativeTarget "LesDelicesDeLaNocheUITests" */;
+			buildPhases = (
+				D81E5C4C2921B850007FCF20 /* Sources */,
+				D81E5C4D2921B850007FCF20 /* Frameworks */,
+				D81E5C4E2921B850007FCF20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D81E5C522921B850007FCF20 /* PBXTargetDependency */,
+			);
+			name = LesDelicesDeLaNocheUITests;
+			productName = LesDelicesDeLaNocheUITests;
+			productReference = D81E5C502921B850007FCF20 /* LesDelicesDeLaNocheUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D81E5C2E2921B84C007FCF20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					D81E5C352921B84C007FCF20 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					D81E5C452921B850007FCF20 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = D81E5C352921B84C007FCF20;
+					};
+					D81E5C4F2921B850007FCF20 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = D81E5C352921B84C007FCF20;
+					};
+				};
+			};
+			buildConfigurationList = D81E5C312921B84C007FCF20 /* Build configuration list for PBXProject "LesDelicesDeLaNoche" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D81E5C2D2921B84C007FCF20;
+			productRefGroup = D81E5C372921B84C007FCF20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D81E5C352921B84C007FCF20 /* LesDelicesDeLaNoche */,
+				D81E5C452921B850007FCF20 /* LesDelicesDeLaNocheTests */,
+				D81E5C4F2921B850007FCF20 /* LesDelicesDeLaNocheUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D81E5C342921B84C007FCF20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D81E5C412921B84F007FCF20 /* Preview Assets.xcassets in Resources */,
+				D81E5C3E2921B84F007FCF20 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D81E5C442921B850007FCF20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D81E5C4E2921B850007FCF20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D81E5C322921B84C007FCF20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D81E5C3C2921B84C007FCF20 /* ContentView.swift in Sources */,
+				D81E5C3A2921B84C007FCF20 /* LesDelicesDeLaNocheApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D81E5C422921B850007FCF20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D81E5C4B2921B850007FCF20 /* LesDelicesDeLaNocheTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D81E5C4C2921B850007FCF20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D81E5C552921B850007FCF20 /* LesDelicesDeLaNocheUITests.swift in Sources */,
+				D81E5C572921B850007FCF20 /* LesDelicesDeLaNocheUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D81E5C482921B850007FCF20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D81E5C352921B84C007FCF20 /* LesDelicesDeLaNoche */;
+			targetProxy = D81E5C472921B850007FCF20 /* PBXContainerItemProxy */;
+		};
+		D81E5C522921B850007FCF20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D81E5C352921B84C007FCF20 /* LesDelicesDeLaNoche */;
+			targetProxy = D81E5C512921B850007FCF20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D81E5C582921B850007FCF20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D81E5C592921B850007FCF20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D81E5C5B2921B850007FCF20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LesDelicesDeLaNoche/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dadinio.LesDelicesDeLaNoche;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D81E5C5C2921B850007FCF20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LesDelicesDeLaNoche/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dadinio.LesDelicesDeLaNoche;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D81E5C5E2921B850007FCF20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dadinio.LesDelicesDeLaNocheTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LesDelicesDeLaNoche.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LesDelicesDeLaNoche";
+			};
+			name = Debug;
+		};
+		D81E5C5F2921B850007FCF20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dadinio.LesDelicesDeLaNocheTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LesDelicesDeLaNoche.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LesDelicesDeLaNoche";
+			};
+			name = Release;
+		};
+		D81E5C612921B850007FCF20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dadinio.LesDelicesDeLaNocheUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LesDelicesDeLaNoche;
+			};
+			name = Debug;
+		};
+		D81E5C622921B850007FCF20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dadinio.LesDelicesDeLaNocheUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LesDelicesDeLaNoche;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D81E5C312921B84C007FCF20 /* Build configuration list for PBXProject "LesDelicesDeLaNoche" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D81E5C582921B850007FCF20 /* Debug */,
+				D81E5C592921B850007FCF20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D81E5C5A2921B850007FCF20 /* Build configuration list for PBXNativeTarget "LesDelicesDeLaNoche" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D81E5C5B2921B850007FCF20 /* Debug */,
+				D81E5C5C2921B850007FCF20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D81E5C5D2921B850007FCF20 /* Build configuration list for PBXNativeTarget "LesDelicesDeLaNocheTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D81E5C5E2921B850007FCF20 /* Debug */,
+				D81E5C5F2921B850007FCF20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D81E5C602921B850007FCF20 /* Build configuration list for PBXNativeTarget "LesDelicesDeLaNocheUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D81E5C612921B850007FCF20 /* Debug */,
+				D81E5C622921B850007FCF20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D81E5C2E2921B84C007FCF20 /* Project object */;
+}
