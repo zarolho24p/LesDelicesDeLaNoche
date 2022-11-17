@@ -14,6 +14,10 @@
 		D81E5C4B2921B850007FCF20 /* LesDelicesDeLaNocheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81E5C4A2921B850007FCF20 /* LesDelicesDeLaNocheTests.swift */; };
 		D81E5C552921B850007FCF20 /* LesDelicesDeLaNocheUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81E5C542921B850007FCF20 /* LesDelicesDeLaNocheUITests.swift */; };
 		D81E5C572921B850007FCF20 /* LesDelicesDeLaNocheUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81E5C562921B850007FCF20 /* LesDelicesDeLaNocheUITestsLaunchTests.swift */; };
+		D81E5C642921B9AE007FCF20 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81E5C632921B9AE007FCF20 /* Model.swift */; };
+		D81E5C662921BDFB007FCF20 /* Carte.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81E5C652921BDFB007FCF20 /* Carte.swift */; };
+		D81E5C682922242C007FCF20 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81E5C672922242C007FCF20 /* MenuView.swift */; };
+		D8B020E129231A50008A6E0B /* AjouterAuPanierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B020E029231A50008A6E0B /* AjouterAuPanierView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		D81E5C502921B850007FCF20 /* LesDelicesDeLaNocheUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LesDelicesDeLaNocheUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D81E5C542921B850007FCF20 /* LesDelicesDeLaNocheUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LesDelicesDeLaNocheUITests.swift; sourceTree = "<group>"; };
 		D81E5C562921B850007FCF20 /* LesDelicesDeLaNocheUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LesDelicesDeLaNocheUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D81E5C632921B9AE007FCF20 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		D81E5C652921BDFB007FCF20 /* Carte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carte.swift; sourceTree = "<group>"; };
+		D81E5C672922242C007FCF20 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		D8B020E029231A50008A6E0B /* AjouterAuPanierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AjouterAuPanierView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +104,10 @@
 			children = (
 				D81E5C392921B84C007FCF20 /* LesDelicesDeLaNocheApp.swift */,
 				D81E5C3B2921B84C007FCF20 /* ContentView.swift */,
+				D8B020E329264E95008A6E0B /* Modele */,
+				D8B020E229264E88008A6E0B /* Ressources */,
+				D81E5C672922242C007FCF20 /* MenuView.swift */,
+				D8B020E029231A50008A6E0B /* AjouterAuPanierView.swift */,
 				D81E5C3D2921B84F007FCF20 /* Assets.xcassets */,
 				D81E5C3F2921B84F007FCF20 /* Preview Content */,
 			);
@@ -125,6 +137,22 @@
 				D81E5C562921B850007FCF20 /* LesDelicesDeLaNocheUITestsLaunchTests.swift */,
 			);
 			path = LesDelicesDeLaNocheUITests;
+			sourceTree = "<group>";
+		};
+		D8B020E229264E88008A6E0B /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				D81E5C652921BDFB007FCF20 /* Carte.swift */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		D8B020E329264E95008A6E0B /* Modele */ = {
+			isa = PBXGroup;
+			children = (
+				D81E5C632921B9AE007FCF20 /* Model.swift */,
+			);
+			path = Modele;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +285,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D81E5C682922242C007FCF20 /* MenuView.swift in Sources */,
+				D81E5C642921B9AE007FCF20 /* Model.swift in Sources */,
+				D81E5C662921BDFB007FCF20 /* Carte.swift in Sources */,
 				D81E5C3C2921B84C007FCF20 /* ContentView.swift in Sources */,
+				D8B020E129231A50008A6E0B /* AjouterAuPanierView.swift in Sources */,
 				D81E5C3A2921B84C007FCF20 /* LesDelicesDeLaNocheApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
